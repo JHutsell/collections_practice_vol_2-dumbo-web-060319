@@ -25,5 +25,6 @@ end
 
 def remove_non_strings(arr)
   arr.reject { |ele| ele.class != String } 
-  
 end
+
+def 
