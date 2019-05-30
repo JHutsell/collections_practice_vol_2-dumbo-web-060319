@@ -53,13 +53,10 @@ def merge_data(keys, data)
   merge 
 end
 
-def find_cool(arr)
+def find_cool(hash_arr)
   cool = []
-  arr.each do |person|
-    person.each do |key, value|
-      cool << person if key == :temperature && value == "cool"
-    end
+  hash_arr.each do |hash|
+    
   end
-  cool
   
 end
