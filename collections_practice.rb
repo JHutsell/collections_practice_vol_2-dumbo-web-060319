@@ -27,3 +27,8 @@ def remove_non_strings(arr)
   arr.reject { |ele| ele.class != String } 
 end
 
+def count_elements(arr, target)
+  count = 0 
+  arr.each do { |ele| count += 1 if ele == target }
+  count
+end
