@@ -68,7 +68,7 @@ def organize_schools(schools_hash)
   
   schools_hash.map do |name, location|
     location.map do |key, city|
-      
+      if sorted.has_key?(city)
     end
   end
   
