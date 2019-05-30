@@ -55,7 +55,7 @@ end
 
 def find_cool(arr)
   cool = []
-  array.each do |person|
+  arr.each do |person|
     person.each do |key, value|
       cool << person if key == :temperature && value == "cool"
     end
