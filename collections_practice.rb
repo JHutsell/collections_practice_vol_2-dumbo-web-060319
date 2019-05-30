@@ -27,7 +27,7 @@ def remove_non_strings(arr)
   arr.reject { |ele| ele.class != String } 
 end
 
-def count_elements(arr, target)
+def count_elements(array, target)
   arr = []
   count = Hash.new(0)
   array.each do |name|
