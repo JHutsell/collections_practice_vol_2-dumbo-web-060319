@@ -67,7 +67,7 @@ def organize_schools(schools_hash)
   organized_hash = {}
   
   schools_hash.map do |name, location|
-    
+    location.map do |
   end
   
   
