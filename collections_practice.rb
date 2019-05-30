@@ -28,7 +28,5 @@ def remove_non_strings(arr)
 end
 
 def count_elements(arr, target)
-  count = 0 
-  arr.each { |ele| count += 1 if ele == target }
-  count
+  
 end
