@@ -72,7 +72,8 @@ def organize_schools(schools_hash)
         sorted[city] << name
       else
         sorted[city] = []
-        
+        sorted[city] << name
+      end
     end
   end
   
