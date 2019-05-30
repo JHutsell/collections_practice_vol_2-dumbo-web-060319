@@ -54,6 +54,12 @@ def merge_data(keys, data)
 end
 
 def find_cool(arr)
-  
+  cool = []
+  array.each do |person|
+    person.each do |key, value|
+      cool << person if key == :temperature && value == "cool"
+    end
+  end
+  cool
   
 end
