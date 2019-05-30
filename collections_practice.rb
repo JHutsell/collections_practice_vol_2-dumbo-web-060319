@@ -71,6 +71,7 @@ def organize_schools(schools_hash)
       if sorted.has_key?(city)
         sorted[city] << name
       else
+        sorted[city] = []
         
     end
   end
