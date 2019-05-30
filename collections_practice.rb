@@ -77,6 +77,4 @@ def organize_schools(schools_hash)
     end
   end
   sorted
-  
-  
 end
